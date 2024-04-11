@@ -32,12 +32,11 @@ object Simulator {
 
   // Simulation du générateur de rapports
   def simulate(startingId: Int, reportCount: Int): Unit = {
-    var currentId = startingId
-    (1 to reportCount).foreach { _ =>
-      val report = generateReport(currentId)
+    val finalId = startingId + reportCount
+    (startingId until finalId).foreach { id =>
+      val report = generateReport(id)
       printReport(report)
       Thread.sleep(1000)
-      currentId += 1
     }
   }
 
@@ -47,4 +46,5 @@ object Simulator {
 
     simulate(startingId, reportCount)
   }
+
 }
