@@ -36,7 +36,7 @@ object Simulator {
     (startingId until finalId).foreach { id =>
       val report = generateReport(id)
       printReport(report)
-      Thread.sleep(1000)
+      Thread.sleep(15000)
     }
   }
 
