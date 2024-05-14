@@ -9,7 +9,8 @@ case class DroneData(
                        frequence_cardiaque: Double,
                        temperature_corporelle: Double,
                        temperature: Double,
-                       heure: String
+                       heure: String,
+                       alerte: Boolean
     )
 
 object DroneData {

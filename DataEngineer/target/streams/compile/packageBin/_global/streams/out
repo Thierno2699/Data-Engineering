@@ -1,0 +1,33 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\projet_2.12-0.1.0-SNAPSHOT.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HighBPMStream$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\HighBPMStream$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	HighBPMStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\HighBPMStream.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\models[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models\DroneData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\models\DroneData$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	models\DroneData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\models\DroneData.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parsers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\parsers[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parsers\Parsers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\parsers\Parsers$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	parsers\Parsers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\parsers\Parsers.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Simulator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\Simulator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Simulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\Simulator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\utils[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils\Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\utils\Consumer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	utils\Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\target\scala-2.12\classes\utils\Consumer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

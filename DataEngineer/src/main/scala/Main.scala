@@ -5,7 +5,7 @@ object Main {
   def main(args: Array[String]): Unit = {
 
     // rapport
-    val report = DroneData(1, 48.8566, 2.3522, 60, 37.0, 20.0, "12:00")
+    val report = DroneData(1, 48.8566, 2.3522, 60, 37.0, 20.0, "12:00", false)
 
     // Sérialiseur JSON
     val json = Parsers.toJson(report)

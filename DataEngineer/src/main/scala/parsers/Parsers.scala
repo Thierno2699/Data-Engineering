@@ -18,11 +18,11 @@ object Parsers {
 
   // sérialisation en CSV
   def toCsv(report: DroneData): String = {
-    s"${report.id},${report.latitude},${report.longitude},${report.frequence_cardiaque},${report.temperature_corporelle},${report.temperature},${report.heure}"
+    s"${report.id},${report.latitude},${report.longitude},${report.frequence_cardiaque},${report.temperature_corporelle},${report.temperature},${report.heure},${report.alerte}"
   }
   //désérialisation en CSV
   def fromCsv(csv: String): DroneData = {
     val fields = csv.split(",")
-    DroneData(fields(0).toInt, fields(1).toDouble, fields(2).toDouble, fields(3).toDouble, fields(4).toDouble, fields(5).toDouble, fields(6).toString)
+    DroneData(fields(0).toInt, fields(1).toDouble, fields(2).toDouble, fields(3).toDouble, fields(4).toDouble, fields(5).toDouble, fields(6).toString, fields(7).toBoolean)
   }
 }

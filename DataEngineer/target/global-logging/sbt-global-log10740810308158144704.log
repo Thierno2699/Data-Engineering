@@ -1,0 +1,143 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\coren\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\coren\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.9.7 (Amazon.com Inc. Java 17.0.10)
+[debug]       Load.loadUnit: plugins took 144.3122ms
+[debug]       Load.loadUnit: defsScala took 1.153101ms
+[debug] [Loading] Scanning directory C:\Users\coren\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\coren\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 17.547901 ms
+[debug]           Load.resolveProject(global-plugins) took 41.988701ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\coren\.sbt\1.0\plugins, plugins: List(<none>))) took 90.2754ms
+[debug] [Loading] Done in C:\Users\coren\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 144.114699ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1964ms
+[debug]     Load.loadUnit(file:/C:/Users/coren/.sbt/1.0/plugins/, ...) took 304.7565ms
+[debug]   Load.apply: load took 570.6025ms
+[debug]   Load.apply: resolveProjects took 7.0992ms
+[debug]   Load.apply: finalTransforms took 79.0249ms
+[debug]   Load.apply: config.delegates took 13.982701ms
+[debug]   Load.apply: Def.make(settings)... took 497.3785ms
+[debug]   Load.apply: structureIndex took 147.442099ms
+[debug]   Load.apply: mkStreams took 2.3517ms
+[info] loading global plugins from C:\Users\coren\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2907.667299ms
+[debug]           Load.loadUnit: plugins took 21.8303ms
+[debug]           Load.loadUnit: defsScala took 0.004ms
+[debug] [Loading] Scanning directory C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\project
+[debug]             Load.loadUnit: mkEval took 5.2317ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.468001 ms
+[info] loading settings for project dataengineer-build from idea.sbt ...
+[debug]               Load.resolveProject(dataengineer-build) took 5.1893ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id dataengineer-build, base: C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\project, plugins: List(<none>))) took 8.6849ms
+[debug] [Loading] Done in C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\project, returning: (dataengineer-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2957.663801ms
+[debug]           Load.loadUnit: cleanEvalClasses took 15.513401ms
+[debug]         Load.loadUnit(file:/C:/Users/coren/Documents/Cours/S8/Data%20engineering/projet/Data-Engineering/DataEngineer/project/, ...) took 2996.1061ms
+[debug]       Load.apply: load took 2998.0923ms
+[debug]       Load.apply: resolveProjects took 0.1818ms
+[debug]       Load.apply: finalTransforms took 12.5795ms
+[debug]       Load.apply: config.delegates took 0.6106ms
+[debug]       Load.apply: Def.make(settings)... took 95.6965ms
+[debug]       Load.apply: structureIndex took 38.5898ms
+[debug]       Load.apply: mkStreams took 0.0038ms
+[info] loading project definition from C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 5016.637ms
+[debug]     Load.loadUnit: defsScala took 0.006ms
+[debug] [Loading] Scanning directory C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer
+[debug]       Load.loadUnit: mkEval took 0.2949ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.7355 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 36.6489ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer, plugins: List(<none>))) took 41.8882ms
+[debug] [Loading] Done in C:\Users\coren\Documents\Cours\S8\Data engineering\projet\Data-Engineering\DataEngineer, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 3144.3649ms
+[debug]     Load.loadUnit: cleanEvalClasses took 70.1365ms
+[debug]   Load.loadUnit(file:/C:/Users/coren/Documents/Cours/S8/Data%20engineering/projet/Data-Engineering/DataEngineer/, ...) took 8232.1735ms
+[debug] Load.apply: load took 8234.729401ms
+[debug] Load.apply: resolveProjects took 0.192701ms
+[debug] Load.apply: finalTransforms took 42.0929ms
+[debug] Load.apply: config.delegates took 0.503399ms
+[debug] Load.apply: Def.make(settings)... took 75.0547ms
+[debug] Load.apply: structureIndex took 24.0835ms
+[debug] Load.apply: mkStreams took 0.0037ms
+[info] set current project to projet (in build file:/C:/Users/coren/Documents/Cours/S8/Data%20engineering/projet/Data-Engineering/DataEngineer/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 58969 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 58969, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to projet (in build file:/C:/Users/coren/Documents/Cours/S8/Data%20engineering/projet/Data-Engineering/DataEngineer/)
+[debug] > Exec(idea-shell, None, None)
