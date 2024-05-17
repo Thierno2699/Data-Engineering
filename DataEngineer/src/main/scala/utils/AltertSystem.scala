@@ -9,7 +9,6 @@ import software.amazon.awssdk.services.ses.SesClient
 import software.amazon.awssdk.services.ses.model._
 import software.amazon.awssdk.regions.Region
 
-
 object AlertSystem {
   private val kafkaTopic = "drone_data"
   private val bootstrapServers = "localhost:29092"
@@ -43,19 +42,25 @@ object AlertSystem {
     sesClient.sendEmail(request)
   }
 
-  def main(args: Array[String]): Unit = {
-    while (true) {
-      val records = consumer.poll(java.time.Duration.ofMillis(100))
-      records.asScala.foreach { record =>
-        val jsonString = record.value()
-        val droneData = fromJson(jsonString) // Assurez-vous de définir la logique de désérialisation appropriée ici
+  def processRecord(record: String): Unit = {
+    val droneData = fromJson(record) // Assurez-vous de définir la logique de désérialisation appropriée ici
 
-        if (droneData.alerte) {
-          val subject = "Alerte de drone détectée"
-          val body = s"Fréquence cardiaque trop élevé (${droneData.frequence_cardiaque} BPM) détecté pour le drone ${droneData.id}. Latitude: ${droneData.latitude}, Longitude: ${droneData.longitude}."
-          sendEmail(subject, body)
-        }
-      }
+    if (droneData.alerte) {
+      val subject = "Alerte de drone détectée"
+      val body = s"Fréquence cardiaque trop élevée (${droneData.frequence_cardiaque} BPM) détectée pour le drone ${droneData.id}. Latitude: ${droneData.latitude}, Longitude: ${droneData.longitude}."
+      sendEmail(subject, body)
     }
+  }
+
+  def pollAndProcess(): Unit = {
+    val records = consumer.poll(java.time.Duration.ofMillis(100))
+    records.asScala.foreach { record =>
+      processRecord(record.value())
+    }
+    pollAndProcess() // Appel récursif pour continuer à traiter les enregistrements
+  }
+
+  def main(args: Array[String]): Unit = {
+    pollAndProcess() // Lancer le traitement récursif
   }
 }

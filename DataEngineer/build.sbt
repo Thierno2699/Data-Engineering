@@ -10,6 +10,7 @@ libraryDependencies += "org.slf4j" % "slf4j-simple" % "1.7.32"
 libraryDependencies += "com.amazonaws" % "aws-java-sdk-sns" % "1.12.78"
 libraryDependencies += "software.amazon.awssdk" % "ses" % "2.17.34"
 libraryDependencies += "software.amazon.awssdk" % "kinesis" % "2.17.34"
+libraryDependencies += "software.amazon.awssdk" % "s3" % "2.15.40"
 
 
 lazy val root = (project in file("."))
