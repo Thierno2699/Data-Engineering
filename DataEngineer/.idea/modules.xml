@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projet.iml" filepath="$PROJECT_DIR$/.idea/modules/projet.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/projet-build.iml" filepath="$PROJECT_DIR$/.idea/modules/projet-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataIng.iml" filepath="$PROJECT_DIR$/.idea/modules/DataIng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataIng.DataIng-build.iml" filepath="$PROJECT_DIR$/.idea/modules/DataIng.DataIng-build.iml" />
     </modules>
   </component>
 </project>
