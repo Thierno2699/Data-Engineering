@@ -1,3 +1,5 @@
+package utils
+
 import java.util.Properties
 import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import models.DroneData
@@ -11,7 +13,7 @@ object Simulator {
 
   // Configurer les propriétés Kafka
   private val props = new Properties()
-  props.put("bootstrap.servers", "localhost:29092")
+  props.put("bootstrap.servers", "localhost:9092")
   props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
   props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
 
@@ -20,15 +22,23 @@ object Simulator {
 
   // Rapport IoT avec des données aléatoires créé en fonction du paramètre
   def generateReport(Id: Int): DroneData = {
+    val random = new Random()
     val id = Id
-    val latitude = -90 + random.nextDouble() * (90 - (-90))
-    val longitude = -180 + random.nextDouble() * (180 - (-180))
+    val latitude = -90 + random.nextDouble() * 180
+    val longitude = -180 + random.nextDouble() * 360
     val frequence_cardiaque = random.nextInt(150)
     val temperature_corporelle = random.nextDouble() * 10 + 35
-    val temperature = -20 + random.nextDouble() * (50 - (-20))
-    val heure = "12:00"
-    val alerte = if (frequence_cardiaque > 100) true else false
+    val temperature = -20 + random.nextDouble() * 70
+    val heure = generateRandomTime()
+    val alerte = frequence_cardiaque > 100
     DroneData(id, latitude, longitude, frequence_cardiaque, temperature_corporelle, temperature, heure, alerte)
+  }
+
+  // Génère une heure aléatoire
+  def generateRandomTime(): String = {
+    val hours = random.nextInt(24)
+    val minutes = random.nextInt(60)
+    f"$hours%02d:$minutes%02d"
   }
 
   // Affiche un rapport IoT
@@ -45,8 +55,6 @@ object Simulator {
   }
 
   // Envoyer un rapport au topic Kafka
-
-
   def sendReportToKafka(report: DroneData): Unit = {
     val jsonReport = Parsers.toJson(report) // Convertir le rapport en JSON
     val record = new ProducerRecord[String, String](kafkaTopic, report.id.toString, jsonReport)

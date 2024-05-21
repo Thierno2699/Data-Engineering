@@ -5,7 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DataEngineer-build.iml" filepath="$PROJECT_DIR$/.idea/modules/DataEngineer-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataEngineer-build/.idea/modules/DataEngineer-build-build.iml" filepath="$PROJECT_DIR$/DataEngineer-build/.idea/modules/DataEngineer-build-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project.iml" filepath="$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project-build.iml" filepath="$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project.project-build.iml" filepath="$PROJECT_DIR$/DataEngineer/project/.idea/modules/DataEngineer.project.project-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataEngineer/project/.idea/modules/project.iml" filepath="$PROJECT_DIR$/DataEngineer/project/.idea/modules/project.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataEngineer/project/.idea/modules/project-build.iml" filepath="$PROJECT_DIR$/DataEngineer/project/.idea/modules/project-build.iml" />
     </modules>
